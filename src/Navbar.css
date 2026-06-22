@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: #232323;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin-left:auto;
+  padding-right: 32px;
+}
+
+li {
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+span {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  background-color: #b1311e;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0px 4px 15px rgba(232, 68, 42, 0.2);
+}   
