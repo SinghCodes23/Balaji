@@ -19,9 +19,14 @@ function Hero() {
           <button className="bg-[#e8442a] text-white px-7 py-3 rounded-full text-base cursor-pointer shadow-lg">
             Shop Now
           </button>
-          <button className="bg-black/40 text-white border-2 border-white/30 px-7 py-3 rounded-full text-base cursor-pointer shadow-lg">
-            View Product Catalog
-          </button>
+         <button 
+  className="text-white px-7 py-3 rounded-full text-base cursor-pointer" 
+  style={{
+    backgroundColor: 'rgb(48,48,48)', 
+    boxShadow: '0px 4px 15px rgb(42,42,42)'
+  }}>
+  View Product Catalog
+</button>
         </div>
       </div>
     </div>
