@@ -9,7 +9,7 @@ function Hero() {
       }}
     >
       <div className="max-w-xl text-center flex flex-col items-center">
-        <h1 className="text-white text-4xl font-bold mb-5">
+        <h1 className="text-white text-[40px] font-light leading-snug mb-5 text-center">
           Your trusted partner in premium plywood and door manufacturing.
         </h1>
         <p className="text-white text-base mb-8 opacity-80">
