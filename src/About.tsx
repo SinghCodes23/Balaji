@@ -10,17 +10,18 @@ function About() {
         <a className="text-[#e8442a] text-sm cursor-pointer">View Page</a>
       </h2>
 
-      
-      <img
-  src={plywood}
-  alt="About Balaji"
-  className="w-1/2 h-80 rounded-xl object-cover"
-/>
+      {/* Top part - image left, text right */}
+      <div className="flex gap-8 mb-8">
+        <img
+          src={plywood}
+          alt="About Balaji"
+          className="w-1/2 h-80 rounded-xl object-cover"
+        />
 
         <div className="w-1/2 flex flex-col justify-center">
           <h3 className="text-3xl font-semibold mb-4 leading-snug">
             Crafting Strength. <span className="text-[#e8442a]">Building Trust.</span>
-            </h3>
+          </h3>
           <p className="text-gray-600 mb-4 text-2xl leading-relaxed">
             Balaji Plywood is a leading manufacturer of high-quality plywood and doors, dedicated to excellence in every product we create. Our manufacturing process combines advanced technology, stringent quality control, and carefully selected raw materials to ensure superior strength, durability, and finish.
           </p>
