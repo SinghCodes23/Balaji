@@ -1,4 +1,5 @@
 import { Shield, Users, Clock } from 'lucide-react';
+import plywood from './assets/plywood.png';
 
 function About() {
   return (
@@ -10,12 +11,11 @@ function About() {
       </h2>
 
       
-      <div className="flex gap-8 mb-8">
-        <img
-          src="src/assets/plywood.png"
-          alt="About Balaji"
-          className="w-1/2 h-120 rounded-xl object-cover"
-        />
+      <img
+  src={plywood}
+  alt="About Balaji"
+  className="w-1/2 h-80 rounded-xl object-cover"
+/>
 
         <div className="w-1/2 flex flex-col justify-center">
           <h3 className="text-3xl font-semibold mb-4 leading-snug">
