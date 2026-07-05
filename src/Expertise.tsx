@@ -12,7 +12,7 @@ function Expertise() {
       <div className="relative flex items-end mb-12 min-h-[500px]">
         
         {/* Text on left */}
-        <div className="w-1/2 pb-8 z-10" data-aos="fade-right">
+        <div className="w-1/2 pb-8 " data-aos="fade-right">
           <h3 className="text-6xl font-bold text-[#8B6914] mb-2">Years of Craftsmanship.</h3>
           <h3 className="text-8xl font-black text-black">Built on</h3>
           <h3 className="text-8xl font-black text-black">Trust.</h3>

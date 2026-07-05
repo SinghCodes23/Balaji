@@ -2,7 +2,7 @@ import logo from './assets/logo.png';
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 bg-[#1e1e1e] fixed top-0 w-full z-10">
+    <nav className="flex items-center justify-between px-8 py-4 bg-[#1e1e1e] fixed top-0 w-full z-50">
       <img src={logo} alt="Balaji" className="h-10" />
 
       <ul className="flex list-none gap-8 ml-auto mr-8">
